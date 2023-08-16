@@ -1,0 +1,119 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    z-index: 10;
+}
+
+.menu a {
+    display: block;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+    background-color: rgb(61, 61, 61); 
+    color: rgb(255, 255, 255);
+}
+
+.show-menu {
+    display: block;
+}
+
+@font-face {
+    font-family: "Futura PT";
+    src: url(../fonts/futura-pt/FuturaCyrillicBook.ttf) format("truetype");
+    /* Add more font files for different weights and styles if available */
+}
+
+@font-face {
+    font-family: "Futura PT Bold";
+    src: url(../fonts/futura-pt/FuturaCyrillicBold.ttf) format("truetype");
+    /* Add more font files for different weights and styles if available */
+}
+
+body {
+    font-family: "Futura PT", Arial, sans-serif;
+}
+
+/* CSS animation for the blinking end line */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* CSS animation for the typing effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+#welcome-heading {
+    font-family: "Futura PT Bold", sans-serif;
+}
+
+/* Apply the blinking effect to the last character */
+#welcome-heading::after {
+    content: "_";
+    display: inline-block;
+    animation: blink 1s infinite;
+}
+
+.image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px; /* Set a fixed height for the image container */
+}
+
+.image-wrapper img {
+    max-height: 100%; /* Maintain the same height for all images */
+    max-width: 100%; /* Maintain the aspect ratio */
+    object-fit: contain; /* Adjust the image to fit inside the container */
+}
+
+.container {
+    position: relative;
+  }
+
+.scrolled {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border-radius: 25px;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+/* Center the form */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Add a class to the sprite images */
+.pokemon-sprite {
+    width: 30%; /* Adjust the width as needed */
+    height: auto;
+}
+
+#sprite-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 8px;
+}
