@@ -19,7 +19,7 @@ class ImageController extends Controller
             $folderId = basename(parse_url($folderUrl, PHP_URL_PATH));
             $fileIds = [];
 
-            $apiUrl = "https://www.googleapis.com/drive/v3/files?q='%s'+in+parents&key=AIzaSyB-izc8AWkiRJoWmAKSj8e-S6-Q4u7WmkM";
+            $apiUrl = "https://www.googleapis.com/drive/v3/files?q='%s'+in+parents&key=";
             $apiUrl = sprintf($apiUrl, $folderId);
 
             $response = Http::get($apiUrl);
