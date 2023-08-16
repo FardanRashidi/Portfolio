@@ -22,7 +22,7 @@
         <div class="w-full p-4">
             <div class="flex flex-col md:flex-row justify-between items-center mb-4">
                 <h1 class="text-3xl font-thin md:mt-36">Recent Works</h1>
-                <p class="text-gray-500">Sales boosting, high-quality creative photoshoots</p>
+                <p class="text-gray-500">Sales boosting, high-quality creative design</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
