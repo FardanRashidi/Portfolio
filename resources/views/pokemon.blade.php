@@ -22,7 +22,7 @@
 
                 <form id="pokemon-form" class="bg-white p-8 rounded shadow-md">
                     @csrf
-                    <label class="block mb-2" for="name">Pokemon Base Stats:</label>
+                    <label class="block mb-2" for="name">Pokemon Base Stats</label>
                     <input class="w-full px-3 py-2 border rounded" type="text" name="name" id="name" required>
                     <div class="mt-4">
                         <button class="bg-blue-500 text-white px-4 py-2 rounded" type="submit">Submit</button>
