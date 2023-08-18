@@ -95,6 +95,10 @@ body {
     transition: background-color 0.3s ease;
 }
 
+
+
+/* =========================================== POKEMON ===============================================*/
+
 /* Center the form */
 .flex-container {
     display: flex;
@@ -135,3 +139,7 @@ body {
     justify-items: center;
     height: 100%;
 }
+
+
+
+/* =========================================== LAST.FM ===============================================*/

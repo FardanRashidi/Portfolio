@@ -885,6 +885,10 @@ body {
     transition: background-color 0.3s ease;
 }
 
+
+
+/* =========================================== POKEMON ===============================================*/
+
 /* Center the form */
 .flex-container {
     display: flex;
@@ -925,26 +929,48 @@ body {
     justify-items: center;
     height: 100%;
 }
+
+
+
+/* =========================================== LAST.FM ===============================================*/
+
+
+
 .hover\:bg-black:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
+
+
+
 .hover\:text-gray-600:hover {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
+
+
+
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+
+
+
 .focus\:text-gray-600:focus {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
+
+
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
+
+
 @media (min-width: 640px) {
 
   .sm\:grid-cols-2 {
@@ -956,6 +982,9 @@ body {
     padding-right: 1.5rem;
   }
 }
+
+
+
 @media (min-width: 768px) {
 
   .md\:mt-36 {
@@ -986,6 +1015,9 @@ body {
     flex-direction: row;
   }
 }
+
+
+
 @media (min-width: 1024px) {
 
   .lg\:grid-cols-4 {
@@ -997,4 +1029,3 @@ body {
     padding-right: 2rem;
   }
 }
-

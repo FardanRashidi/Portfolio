@@ -27,7 +27,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                  <a href="{{ url('/pokemon') }}" target="_blank" rel="noopener noreferrer"><img src="https://clipground.com/images/pokemon-logo-png-5.png"  class="rounded-3xl border-gray-700 border-2"></a>
-                 <a href="https://www.marvel.com/characters/ghost-spider-gwen-stacy" target="_blank" rel="noopener noreferrer"><img src="https://cdn0.vox-cdn.com/thumbor/Aut6dmnxhWXDzbBUXJ3GIhSUFp4=/0x68:1000x631/1600x900/cdn0.vox-cdn.com/uploads/chorus_image/image/30708815/last.fm_logo_red.0.jpg"  class="rounded-3xl border-gray-700 border-2"></a>
+                 <a href="{{ url('/lastfm') }}" target="_blank" rel="noopener noreferrer"><img src="https://cdn0.vox-cdn.com/thumbor/Aut6dmnxhWXDzbBUXJ3GIhSUFp4=/0x68:1000x631/1600x900/cdn0.vox-cdn.com/uploads/chorus_image/image/30708815/last.fm_logo_red.0.jpg"  class="rounded-3xl border-gray-700 border-2"></a>
                  <a href="https://www.marvel.com/characters/ghost-spider-gwen-stacy" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/kafnx63GuYo/maxresdefault.jpg"  class="rounded-3xl border-gray-700 border-2"></a>
                  <a href="https://www.marvel.com/characters/ghost-spider-gwen-stacy" target="_blank" rel="noopener noreferrer"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/0fa904172862121.6486f1397c89e.jpg"  class="rounded-3xl border-gray-700 border-2"></a>
             </div>
